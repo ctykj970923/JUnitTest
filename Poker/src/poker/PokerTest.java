@@ -82,4 +82,12 @@ public class PokerTest {
 		result = poker.isFullHouse(input, 5);
 		assertEquals(false, result);
 	}
+	@Test
+	public void test12345() {
+		boolean result;
+		String[] input = new String[] {"C1", "D2", "H3", "S4", "D5"};
+		result = poker.isFullHouse(input, 5);
+		assertEquals(false, result);
+	}
+
 }
